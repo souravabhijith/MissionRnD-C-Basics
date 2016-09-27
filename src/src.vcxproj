@@ -12,8 +12,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="count.cpp" />
+    <ClCompile Include="countOnes.cpp" />
+    <ClCompile Include="decimalToOctal.cpp" />
     <ClCompile Include="isOlder.cpp" />
     <ClCompile Include="MainBasics.cpp" />
+    <ClCompile Include="nthNumber.cpp" />
+    <ClCompile Include="octalToHexadecimal.cpp" />
     <ClCompile Include="sum.cpp" />
     <ClCompile Include="swap.cpp" />
     <ClCompile Include="variableArguments.cpp" />

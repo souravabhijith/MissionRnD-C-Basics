@@ -33,6 +33,18 @@
     <ClCompile Include="MainBasics.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="decimalToOctal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="countOnes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nthNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="octalToHexadecimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FunctionHeadersBasics.h">

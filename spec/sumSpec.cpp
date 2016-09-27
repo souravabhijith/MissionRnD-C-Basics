@@ -10,10 +10,10 @@ namespace spec
 	{
 	public:
 
-		TEST_METHOD(basicTest)
+		TEST_METHOD(SumBasicTest)
 		{
 			Assert::AreEqual(5, sum(2, 3), L"Basic input failed", LINE_INFO());
 		}
-
+		
 	};
 }

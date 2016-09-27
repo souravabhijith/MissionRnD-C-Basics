@@ -10,13 +10,13 @@ namespace spec
 	{
 	public:
 
-		TEST_METHOD(zero)
+		TEST_METHOD(countzero)
 		{
 			Assert::AreEqual(-1, count(0, 12), L"Count: zero as first parameter failed", LINE_INFO());
 			Assert::AreEqual(0, count(123, 0), L"Count: zero as second parameter failed", LINE_INFO());
 		}
 
-		TEST_METHOD(positive)
+		TEST_METHOD(countpositive)
 		{
 			Assert::AreEqual(123, count(1, 123), L"Count: one as first parameter failed", LINE_INFO());
 			Assert::AreEqual(0, count(123, 1), L"Count: one as second parameter failed", LINE_INFO());
